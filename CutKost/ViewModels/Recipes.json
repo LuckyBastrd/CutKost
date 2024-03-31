@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Nasi Goreng",
+        "desc": "https://imgur.com/tT6oVoU",
+        "ingridients": [
+            "1. Nasi",
+            "2. Bumbu",
+        ],
+        "steps": [
+            "1. Masukkan Nasi",
+            "2. Masukkan bumbu",
+        ],
+        "time": 15,
+        "price": 15000,
+        "image": "https://imgur.com/tT6oVoU",
+        "video": "https://imgur.com/tT6oVoU",
+    },
+    {
+        "name": "Mie Goreng",
+        "desc": "https://imgur.com/tT6oVoU",
+        "ingridients": [
+            "1. Mie",
+            "2. Bumbu",
+        ],
+        "steps": [
+            "1. Masukkan Mie",
+            "2. Masukkan bumbu",
+        ],
+        "time": 13,
+        "price": 15000,
+        "image": "https://imgur.com/tT6oVoU",
+        "video": "https://imgur.com/tT6oVoU",
+    },
+    {
+        "name": "kwetiau Goreng",
+        "desc": "https://imgur.com/tT6oVoU",
+        "ingridients": [
+            "1. kwetiau",
+            "2. Bumbu",
+        ],
+        "steps": [
+            "1. Masukkan kwetiau",
+            "2. Masukkan bumbu",
+        ],
+        "time": 10,
+        "price": 15000,
+        "image": "https://imgur.com/tT6oVoU",
+        "video": "https://imgur.com/tT6oVoU",
+    },
+]
+
