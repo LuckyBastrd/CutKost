@@ -18,7 +18,7 @@ class DeckViewModel: ObservableObject {
             
             tempRecipesId.append(recipeID)
             
-            print("Deck is not full yet!")
+            //print("Deck is not full yet!")
             
             return
         }

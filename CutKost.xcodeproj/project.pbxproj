@@ -22,6 +22,10 @@
 		052D81562BB8CC7C00C8BB26 /* TempDeckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D81552BB8CC7C00C8BB26 /* TempDeckListView.swift */; };
 		052D81582BB8DC1500C8BB26 /* NewDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D81572BB8DC1500C8BB26 /* NewDeckView.swift */; };
 		052D815A2BB8DFFD00C8BB26 /* DeckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D81592BB8DFFD00C8BB26 /* DeckListView.swift */; };
+		052D815C2BB9BAE900C8BB26 /* TempDeckItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D815B2BB9BAE900C8BB26 /* TempDeckItemView.swift */; };
+		052D817A2BBAD89300C8BB26 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D81792BBAD89300C8BB26 /* ExploreView.swift */; };
+		052D817E2BBAFD9500C8BB26 /* ExploreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D817D2BBAFD9500C8BB26 /* ExploreListView.swift */; };
+		052D81822BBB32A100C8BB26 /* FilterOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D81812BBB32A100C8BB26 /* FilterOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		052D81552BB8CC7C00C8BB26 /* TempDeckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDeckListView.swift; sourceTree = "<group>"; };
 		052D81572BB8DC1500C8BB26 /* NewDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeckView.swift; sourceTree = "<group>"; };
 		052D81592BB8DFFD00C8BB26 /* DeckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckListView.swift; sourceTree = "<group>"; };
+		052D815B2BB9BAE900C8BB26 /* TempDeckItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDeckItemView.swift; sourceTree = "<group>"; };
+		052D81792BBAD89300C8BB26 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		052D817D2BBAFD9500C8BB26 /* ExploreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreListView.swift; sourceTree = "<group>"; };
+		052D81812BBB32A100C8BB26 /* FilterOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +133,12 @@
 				052D81342BB8B29E00C8BB26 /* MainView.swift */,
 				052D814E2BB8B51600C8BB26 /* RecipeListView.swift */,
 				052D81552BB8CC7C00C8BB26 /* TempDeckListView.swift */,
+				052D815B2BB9BAE900C8BB26 /* TempDeckItemView.swift */,
 				052D81592BB8DFFD00C8BB26 /* DeckListView.swift */,
 				052D81572BB8DC1500C8BB26 /* NewDeckView.swift */,
+				052D81792BBAD89300C8BB26 /* ExploreView.swift */,
+				052D817D2BBAFD9500C8BB26 /* ExploreListView.swift */,
+				052D81812BBB32A100C8BB26 /* FilterOptionsView.swift */,
 				052D81502BB8B5F200C8BB26 /* Components */,
 			);
 			path = Views;
@@ -211,18 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052D817A2BBAD89300C8BB26 /* ExploreView.swift in Sources */,
 				052D81352BB8B29E00C8BB26 /* MainView.swift in Sources */,
 				052D81562BB8CC7C00C8BB26 /* TempDeckListView.swift in Sources */,
 				052D814F2BB8B51600C8BB26 /* RecipeListView.swift in Sources */,
 				052D815A2BB8DFFD00C8BB26 /* DeckListView.swift in Sources */,
+				052D817E2BBAFD9500C8BB26 /* ExploreListView.swift in Sources */,
 				052D81472BB8B34700C8BB26 /* DeckModel.swift in Sources */,
 				052D81332BB8B29E00C8BB26 /* CutKostApp.swift in Sources */,
 				052D81582BB8DC1500C8BB26 /* NewDeckView.swift in Sources */,
 				052D81452BB8B32300C8BB26 /* RecipesJSONDecoder.swift in Sources */,
 				052D814C2BB8B38400C8BB26 /* RecipeViewModel.swift in Sources */,
 				052D81542BB8C1D700C8BB26 /* DeckViewModel.swift in Sources */,
+				052D815C2BB9BAE900C8BB26 /* TempDeckItemView.swift in Sources */,
 				052D81522BB8B60200C8BB26 /* URLImageView.swift in Sources */,
 				052D81422BB8B2E200C8BB26 /* RecipeModel.swift in Sources */,
+				052D81822BBB32A100C8BB26 /* FilterOptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

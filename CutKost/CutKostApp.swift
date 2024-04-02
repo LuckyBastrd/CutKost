@@ -30,7 +30,10 @@ struct CutKostApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainView()
+            NavigationView {
+                MainView()
+            }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
         .modelContainer(container)
     }

@@ -11,8 +11,10 @@ import SwiftData
 struct RecipeListView: View {
     
     let item: RecipeModel
-
+    
+    let maxPrice: Int
     @State private var isAddedToDeck = false
+    
     @ObservedObject var deckViewModel: DeckViewModel
     
     var body: some View {
@@ -21,6 +23,7 @@ struct RecipeListView: View {
                 .frame(width: 100, height: 100)
                 .cornerRadius(8)
             Text(item.name)
+            Text("\(item.price)")
             Spacer()
             
             Button(action: {

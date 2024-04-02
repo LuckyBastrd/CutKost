@@ -11,8 +11,12 @@ import SwiftData
 
 struct DeckListView: View {
     
+    @Environment(\.modelContext) private var context
+    
     let decksItem: DeckModel
     let recipesItem: [RecipeModel]
+    
+    @Query private var deck: [DeckModel]
     
     var body: some View {
         VStack {
@@ -32,6 +36,23 @@ struct DeckListView: View {
                     Spacer()
                 }
             }
+            
+            
+            Button(action: {
+                context.delete(decksItem)
+                
+                print("Deck Deleted!")
+                
+            }) {
+                Text("Delete Deck")
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    .padding(.bottom)
+            }
+            .padding()
+            .padding(.horizontal)
         }
     }
 }

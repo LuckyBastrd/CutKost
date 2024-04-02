@@ -12,30 +12,16 @@ import SwiftData
 struct TempDeckListView: View {
     
     let item: RecipeModel
-    
-    @State private var isDeleteToDeck = false
+    @State var price: Int
     @ObservedObject var deckViewModel: DeckViewModel
     
     var body: some View {
-        HStack{
-            ForEach(deckViewModel.tempRecipesId, id: \.self) { recipeID in
-                if item.id == recipeID {
-                    
-                    URLImageView(url: item.image)
-                        .frame(width: 100, height: 100)
-                        .cornerRadius(8)
-                    
-                    Text(item.name)
-                    
-                    Spacer()
-                    
-                    Button(action: {
-                        deckViewModel.deleteFromDeck(recipeID: item.id)
-                    }) {
-                        Text(isDeleteToDeck ? "Deleted" : "Delete Item")
-                    }
-                }
-            }
+        // Iterate over indices of filtered IDs
+        ForEach(deckViewModel.tempRecipesId.indices.filter { deckViewModel.tempRecipesId[$0] == item.id }, id: \.self) { index in
+            // Use index as part of the unique identifier
+            let uniqueID = "\(item.id)-\(index)"
+            //TempDeckItemView(item: item, uniqueID: uniqueID, deckViewModel: deckViewModel)
+            TempDeckItemView(item: item, uniqueID: uniqueID, price: price, deckViewModel: deckViewModel)
         }
     }
 }

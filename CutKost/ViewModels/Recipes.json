@@ -1,51 +1,169 @@
 [
     {
-        "name": "Nasi Goreng",
-        "desc": "https://imgur.com/tT6oVoU",
+        "name": "Nasi Goreng Ayam",
+        "desc": "Nasi goreng ayam dengan cita rasa khas Indonesia.",
         "ingridients": [
-            "1. Nasi",
-            "2. Bumbu",
+            "1. Nasi putih",
+            "2. Daging ayam",
+            "3. Bawang merah",
+            "4. Bawang putih",
+            "5. Kecap manis",
+            "6. Telur",
+            "7. Minyak goreng"
         ],
         "steps": [
-            "1. Masukkan Nasi",
-            "2. Masukkan bumbu",
-        ],
-        "time": 15,
-        "price": 15000,
-        "image": "https://imgur.com/tT6oVoU",
-        "video": "https://imgur.com/tT6oVoU",
-    },
-    {
-        "name": "Mie Goreng",
-        "desc": "https://imgur.com/tT6oVoU",
-        "ingridients": [
-            "1. Mie",
-            "2. Bumbu",
-        ],
-        "steps": [
-            "1. Masukkan Mie",
-            "2. Masukkan bumbu",
-        ],
-        "time": 13,
-        "price": 15000,
-        "image": "https://imgur.com/tT6oVoU",
-        "video": "https://imgur.com/tT6oVoU",
-    },
-    {
-        "name": "kwetiau Goreng",
-        "desc": "https://imgur.com/tT6oVoU",
-        "ingridients": [
-            "1. kwetiau",
-            "2. Bumbu",
-        ],
-        "steps": [
-            "1. Masukkan kwetiau",
-            "2. Masukkan bumbu",
+            "1. Tumis bawang merah dan bawang putih hingga harum.",
+            "2. Masukkan daging ayam yang telah dipotong kecil, aduk hingga matang.",
+            "3. Tambahkan nasi putih dan kecap manis, aduk rata.",
+            "4. Buat telur mata sapi di sisi wajan yang berbeda.",
+            "5. Campur telur dengan nasi goreng, aduk rata hingga matang.",
+            "6. Sajikan nasi goreng ayam hangat."
         ],
         "time": 10,
         "price": 15000,
-        "image": "https://imgur.com/tT6oVoU",
-        "video": "https://imgur.com/tT6oVoU",
+        "image": "https://drive.google.com/uc?export=download&id=16gZoP8XjCSAx2M-l7hT3JJon9Cvgp5wL",
+        "video": "https://www.youtube.com/watch?v=1t75_f8DUJE"
     },
+    {
+        "name": "Mie Goreng Sayuran",
+        "desc": "Mie goreng dengan campuran sayuran segar.",
+        "ingridients": [
+            "1. Mie instan",
+            "2. Wortel",
+            "3. Kubis",
+            "4. Bawang merah",
+            "5. Bawang putih",
+            "6. Kecap manis",
+            "7. Minyak goreng"
+        ],
+        "steps": [
+            "1. Rebus mie instan hingga matang, tiriskan.",
+            "2. Tumis bawang merah dan bawang putih hingga harum.",
+            "3. Masukkan sayuran, aduk hingga layu.",
+            "4. Tambahkan mie instan dan kecap manis, aduk rata.",
+            "5. Sajikan mie goreng sayuran hangat."
+        ],
+        "time": 15,
+        "price": 12000,
+        "image": "https://drive.google.com/uc?export=download&id=160_wRmJuT1jz-YLRBqAzQlugW2cX43Fv",
+        "video": "https://youtu.be/E3VflxR5_hI?si=eIcUgTB8d5mMn5RF"
+    },
+    {
+        "name": "Telur Dadar",
+        "desc": "Telur dadar sederhana namun lezat.",
+        "ingridients": [
+            "1. Telur",
+            "2. Bawang merah",
+            "3. Bawang putih",
+            "4. Garam",
+            "5. Minyak goreng"
+        ],
+        "steps": [
+            "1. Kocok telur dalam sebuah mangkuk.",
+            "2. Tambahkan bawang merah, bawang putih, dan garam, aduk rata.",
+            "3. Panaskan minyak goreng di wajan.",
+            "4. Tuangkan adonan telur ke wajan panas, biarkan hingga matang di kedua sisi.",
+            "5. Sajikan telur dadar hangat."
+        ],
+        "time": 5,
+        "price": 8000,
+        "image": "https://drive.google.com/uc?export=download&id=1xmGIZllXPnHX2QsCC8gqNlrGhqBBeknN",
+        "video": "https://youtu.be/cIbaMvN6sUk?si=ugN0m7z5ExDp256B"
+    },
+    {
+        "name": "Sayur Bayam",
+        "desc": "Sayur bening bayam yang segar dan bergizi.",
+        "ingridients": [
+            "1. Bayam",
+            "2. Wortel",
+            "3. Tomat",
+            "4. Bawang putih",
+            "5. Garam",
+            "6. Gula",
+            "7. Minyak goreng"
+        ],
+        "steps": [
+            "1. Tumis bawang putih hingga harum.",
+            "2. Tambahkan wortel dan tomat, aduk hingga layu.",
+            "3. Masukkan bayam, aduk hingga layu.",
+            "4. Tambahkan air, garam, dan gula, biarkan mendidih.",
+            "5. Sajikan sayur bening bayam hangat."
+        ],
+        "time": 5,
+        "price": 10000,
+        "image": "https://drive.google.com/uc?export=download&id=1N7Nucn4pZ2adsLZr6UetzT8TOXHx3EJF",
+        "video": "https://youtu.be/6hlNjngay2k?si=HESyoEddEXFyWMOS"
+    },
+    {
+        "name": "Tumis Kangkung",
+        "desc": "Tumis kangkung dengan bumbu yang khas.",
+        "ingridients": [
+            "1. Kangkung",
+            "2. Bawang merah",
+            "3. Bawang putih",
+            "4. Cabe rawit",
+            "5. Garam",
+            "6. Minyak goreng"
+        ],
+        "steps": [
+            "1. Tumis bawang merah dan bawang putih hingga harum.",
+            "2. Masukkan cabe rawit, aduk sebentar.",
+            "3. Tambahkan kangkung, aduk hingga layu.",
+            "4. Tambahkan garam secukupnya, aduk rata.",
+            "5. Sajikan tumis kangkung hangat."
+        ],
+        "time": 5,
+        "price": 9000,
+        "image": "https://drive.google.com/uc?export=download&id=1xWX2VCyKPzZbaJuq69YnrUBHoPYn77YV",
+        "video": "https://youtu.be/hevXi1zbKgI?si=-MeAfh1XPKak-XB"
+    },
+    {
+        "name": "Capcay Sayuran",
+        "desc": "Capcay sayuran dengan variasi yang segar.",
+        "ingridients": [
+            "1. Wortel",
+            "2. Kembang kol",
+            "3. Buncis",
+            "4. Jamur",
+            "5. Saus tiram",
+            "6. Minyak goreng"
+        ],
+        "steps": [
+            "1. Potong semua sayuran sesuai selera.",
+            "2. Tumis semua sayuran hingga setengah matang.",
+            "3. Tambahkan saus tiram, aduk rata.",
+            "4. Masak hingga sayuran matang.",
+            "5. Sajikan capcay sayuran hangat."
+        ],
+        "time": 10,
+        "price": 20000,
+        "image": "https://drive.google.com/uc?export=download&id=1xWX2VCyKPzZbaJuq69YnrUBHoPYn77YV",
+        "video": "https://youtu.be/YxMqHgQxsW0?si=8w2I_yn1Rf3zT25S"
+    },
+    {
+        "name": "Omelet Sosis",
+        "desc": "Omelet dengan tambahan sosis yang nikmat.",
+        "ingridients": [
+            "1. Telur",
+            "2. Sosis",
+            "3. Bawang merah",
+            "4. Bawang putih",
+            "5. Garam",
+            "6. Merica",
+            "7. Minyak goreng"
+        ],
+        "steps": [
+            "1. Kocok telur dalam sebuah mangkuk.",
+            "2. Tambahkan sosis yang telah dipotong kecil dan bumbu-bumbu lainnya, aduk rata.",
+            "3. Panaskan minyak goreng di wajan.",
+            "4. Tuangkan adonan telur ke wajan panas, biarkan hingga matang di kedua sisi.",
+            "5. Sajikan omelet sosis hangat."
+        ],
+        "time": 5,
+        "price": 15000,
+        "image": "https://drive.google.com/uc?export=download&id=1wxJ-baG349UOtogeRFNWr3gaIkKxjzli",
+        "video": "https://youtu.be/HUx5MeytGXo?si=wLd5WGE6f2TOi3T2"
+    }
 ]
+
 

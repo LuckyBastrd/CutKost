@@ -19,6 +19,7 @@ class RecipeViewModel: ObservableObject {
     func preloadRecipes() {
 //        do {
 //            try modelContext.delete(model: RecipeModel.self)
+//            try modelContext.delete(model: DeckModel.self)
 //        } catch {
 //            print("Failed to clear all recipes data.")
 //        }
